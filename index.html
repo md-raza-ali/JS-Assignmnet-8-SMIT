@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h1><span>J</span>ava<span>S</span>cript Assignment</h1>
+    </div>
+    <div class="link">
+      <a href="#" onclick="linkAlert()">Click on this link to see Magic...</a>
+    </div>
+
+    <div class="image">
+      <img src="./iphone.avif" alt="" onclick="imgIphone()" />
+      <img src="./samsung.avif" alt="" onclick="imgSamsung()" />
+      <img src="./pixel.avif" alt="" onclick="imgPixel()" />
+      <img src="./oppo.avif" alt="" onclick="imgOppo()" />
+    </div>
+
+    <div class="tbl">
+      <h2>Index Name Class</h2>
+      <table>
+        <tr id="jhone">
+          <td>0</td>
+          <td>Jhone</td>
+          <td>10</td>
+          <td><button onclick="dltRow_1()">Delete</button></td>
+        </tr>
+        <tr id="doe">
+          <td>1</td>
+          <td>Doe</td>
+          <td>9</td>
+          <td><button onclick="dltRow_2()">Delete</button></td>
+        </tr>
+        <tr id="mark">
+          <td>2</td>
+          <td>Mark</td>
+          <td>10</td>
+          <td><button onclick="dltRow_3()">Delete</button></td>
+        </tr>
+        <tr id="james">
+          <td>3</td>
+          <td>James</td>
+          <td>8</td>
+          <td><button onclick="dltRow_4()">Delete</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="q-4-img">
+      <img
+        src="./bugattiL.avif"
+        alt=""
+        onmouseover="overImg()"
+        onmouseout="outImg()"
+        id="image"
+      />
+    </div>
+
+    <div class="box">
+      <button id="increase" class="btn" onclick="incr()">Increase</button>
+      <button id="decrease" class="btn" onclick="decr()">Decrease</button>
+    </div>
+    <div class="counter"><h1 id="count-num">0</h1></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+span {
+  color: rgb(243, 199, 56);
+}
+.link {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 25px;
+}
+.image {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.image img {
+  width: 300px;
+  padding-inline: 10px;
+  cursor: pointer;
+}
+.tbl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tbl h2 {
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.tbl td {
+  padding: 8px 6px;
+  border-bottom: 1px solid black;
+}
+button {
+  padding: 4px 6px;
+  cursor: pointer;
+}
+.q-4-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.q-4-img img {
+  width: 50%;
+  object-fit: contain;
+  cursor: pointer;
+}
+.box,
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.counter h1 {
+  font-size: 40px;
+}
+.btn {
+  margin-inline: 30px;
+  padding: 16px 30px;
+  font-size: 25px;
+}
